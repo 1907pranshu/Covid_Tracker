@@ -64,16 +64,11 @@
                 android:textColor="@color/white"
                 android:fontFamily="@string/regular"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/title_size3"
-                android:text="India"
-                android:layout_marginTop="10dp"
-                android:drawableRight="@drawable/ic_drop"
-                android:drawablePadding="10dp"
-                android:textColor="@color/white"
-                android:fontFamily="@string/bold"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="190dp"
+                android:layout_height="50dp"/>
+
 
             <TextView
                 android:id="@+id/date_updated"
@@ -297,7 +292,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/bold"
-                    android:text="6574839"
+                    android:text="_____"
                     android:textColor="@color/black"
                     android:textSize="@dimen/title_size" />
 
@@ -307,7 +302,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/regular"
-                    android:text="(+32)"
+                    android:text="__"
                     android:textColor="@color/black"
                     android:textSize="@dimen/text_size" />
             </LinearLayout>
@@ -357,7 +352,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/bold"
-                    android:text="6574839"
+                    android:text="_____"
                     android:textColor="@color/black"
                     android:textSize="@dimen/title_size" />
 
@@ -416,7 +411,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/bold"
-                    android:text="6574839"
+                    android:text="_____"
                     android:textColor="@color/black"
                     android:textSize="@dimen/title_size" />
 
@@ -426,7 +421,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/regular"
-                    android:text="(+32)"
+                    android:text="__"
                     android:textColor="@color/black"
                     android:textSize="@dimen/text_size" />
             </LinearLayout>
@@ -476,7 +471,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/bold"
-                    android:text="6574839"
+                    android:text="_____"
                     android:textColor="@color/black"
                     android:textSize="@dimen/title_size" />
 
@@ -486,7 +481,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/regular"
-                    android:text="(+32)"
+                    android:text="__"
                     android:textColor="@color/black"
                     android:textSize="@dimen/text_size" />
             </LinearLayout>
@@ -536,7 +531,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="7dp"
                     android:fontFamily="@string/bold"
-                    android:text="6574839"
+                    android:text="_____"
                     android:textColor="@color/black"
                     android:textSize="@dimen/title_size" />
 
